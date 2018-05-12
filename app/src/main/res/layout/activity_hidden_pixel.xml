@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    tools:context=".HiddenPixel">
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonOne"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:background="@drawable/transparent"
+                android:onClick="updateTextOne" />
+
+            <Button
+                android:id="@+id/buttonTwo"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:background="@drawable/transparent"
+                android:onClick="updateTextTwo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonThree"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:background="@drawable/trans500"
+                android:onClick="updateTextThree"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:id="@+id/buttonFour"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:background="@drawable/transparent"
+                android:onClick="updateTextFour" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonFive"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:background="@drawable/transparent"
+                android:onClick="updateTextFive" />
+
+            <Button
+                android:id="@+id/buttonSix"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:background="@drawable/transparent"
+                android:onClick="updateTextSix" />
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
